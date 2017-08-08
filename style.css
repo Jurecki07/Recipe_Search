@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.main container {
+    height: 100vh;
+    display: flex;
+	flex-wrap: wrap;
+}
