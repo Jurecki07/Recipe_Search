@@ -10,12 +10,16 @@
 <body>
 	<nav class="search"> </nav>
 	<p>
-		<label>Ingriedeint Search </label>
-		<input type="text" id="myText" value="text here" />
+		<form action="" onsubmit="searchRecipes()">
+			<label>ingredients Search </label>
+			<input type="text" id="searchInput" placeholder="search here" />
+			<button type="submit">Search</button>
+		</form>
 	</p>
-	<div class="title"></div>
-
-	<div class="main"></div>
+	<div class="container">
+		<div class="recipes"></div>
+	
+	</div>
 
 	<script type="text/javascript" src="./app.js"></script>
 </body>
